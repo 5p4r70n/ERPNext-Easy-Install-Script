@@ -11,10 +11,10 @@ How to install ERPNext on Ubuntu 18.04 in DigitalOcean, Amazon AWS or any other 
 
 run below script. it'll ask a username just add "erpnextuser"
 
-###### Use only on Ubuntu-18.04.
+###### Use only on debain.
 
 ```sh
-wget -qO erpnext run.kloudboy.com/erpnext && sudo bash erpnext
+wget -qO erpnext https://raw.githubusercontent.com/5p4r70n/ERPNext-Easy-Install-Script/blob/master/install-erpnext.sh && sudo bash erpnext
 ```
 
 > In DigitalOcean 1GB Droplet installation time take 15 to 20 minutes, and some Yellow warnings never mind. just leave it.
